@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.java8.refresher</groupId>
-  <artifactId>JavConcepts</artifactId>
+  <artifactId>JavaConcepts</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>JavConcepts</name>
+  <name>JavaConcepts</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -37,7 +37,7 @@
             <configuration>
                 <classifier>spring-boot</classifier>
                 <mainClass>
-                  com.java8.refresher.JavConcepts.App
+                  com.java8.refresher.JavaConcepts.App
                 </mainClass>
             </configuration>
         </execution>

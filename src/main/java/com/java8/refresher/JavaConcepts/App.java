@@ -1,4 +1,4 @@
-package com.java8.refresher.JavConcepts;
+package com.java8.refresher.JavaConcepts;
 
 /**
  * Hello world!
