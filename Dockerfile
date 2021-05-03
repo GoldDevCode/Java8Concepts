@@ -1,3 +1,3 @@
 FROM openjdk:8
-COPY target/JavConcepts-0.0.1-SNAPSHOT-spring-boot.jar JavConcepts-0.0.1-SNAPSHOT-spring-boot.jar
-ENTRYPOINT ["java","-jar","JavConcepts-0.0.1-SNAPSHOT-spring-boot.jar"] 
+COPY target/JavaConcepts-0.0.1-SNAPSHOT-spring-boot.jar JavaConcepts-0.0.1-SNAPSHOT-spring-boot.jar
+ENTRYPOINT ["java","-jar","JavaConcepts-0.0.1-SNAPSHOT-spring-boot.jar"] 
