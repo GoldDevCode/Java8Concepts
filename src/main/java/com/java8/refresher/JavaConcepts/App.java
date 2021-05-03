@@ -15,7 +15,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("Test Functional Interfaces like Predicate, Cosumer,Function,Supplier in Java 8");
+        System.out.println("Test Functional Interfaces like Predicate, Cosumer,Function,Supplier in Java 8 refresher");
         
         List<Student> listStudents = populateStudentData();
         
