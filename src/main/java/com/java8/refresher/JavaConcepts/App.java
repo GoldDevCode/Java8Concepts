@@ -22,7 +22,7 @@ public class App
         //Predicate test : list students with mathematics as subject
         
         Predicate<Student> mathematicsPredicate = (Student s) -> s.getSpecialization().equalsIgnoreCase("Mathematics");
-        
+        System.out.println("=========================== Printing out Student List With Mathematics subject ==========================");
         for(Student s : listStudents) {
         	if(mathematicsPredicate.test(s)) {
         		System.out.println(s);
@@ -31,8 +31,8 @@ public class App
         
         //Consumer interface accept(T t) method
         
-        Consumer<Student> studentConsumer = (Student s) -> System.out.println(s.getName() + s.getPercentage());
-        		
+        Consumer<Student> studentConsumer = (Student s) -> System.out.println(s.getName() +" : "+ s.getPercentage());
+        System.out.println("=========================== Printing out Student Name with Percentage ==========================");		
         for(Student s : listStudents) {
         	studentConsumer.accept(s);
         }
@@ -40,7 +40,7 @@ public class App
         //Function interface
         
         Function<Student,String> studentFunction = (Student s ) -> s.getName();
-        
+        System.out.println("=============================================Printing out list of Students Name =========================================");
         for(Student s : listStudents) {
         	System.out.println(studentFunction.apply(s));
         }
@@ -50,7 +50,7 @@ public class App
         Supplier<Student> studentSupplier = () -> new Student(111111, "Mahesh", 94.6, "History");
         
         listStudents.add(studentSupplier.get());
-        
+        System.out.println("======================================Printing student list after new addition in the list ============================================");
         System.out.println(listStudents);
         
     }
